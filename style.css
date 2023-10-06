@@ -1,0 +1,49 @@
+body{
+    font-family: 'Press Start 2P';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("imgs\\Bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+     /* This line prevents the image from repeating */
+    
+}
+.mainBody {
+    margin-top: 25%;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+
+.titleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.PTS {
+    font-family: 'Press Start 2P';
+    background-color: rgba(25, 95, 245, 0.925);
+    border-radius: 2rem;
+    padding: 10px;
+    border: 1px black;
+    box-shadow: 5px 10px .5rem black;
+    
+}
+
+.PTS:hover {
+    background-color: rgba(58, 112, 228, 0.925);
+}
